@@ -21,7 +21,7 @@
       </Label>
       <Button layoutX="296.0" layoutY="340.0" mnemonicParsing="false" onAction="#editselectedOnAction" text="Edit Selected" />
       <Button layoutX="286.0" layoutY="375.0" mnemonicParsing="false" onAction="#cancelselectedOnAction" text=" Cancel Selected" />
-      <TableView layoutX="76.0" layoutY="131.0" prefHeight="200.0" prefWidth="523.0">
+      <TableView fx:id="listofeventsTableview" layoutX="76.0" layoutY="131.0" prefHeight="200.0" prefWidth="523.0">
         <columns>
           <TableColumn fx:id="titleCol" prefWidth="175.20001983642578" text="Title" />
           <TableColumn fx:id="dateCol" prefWidth="120.0" text="Date" />

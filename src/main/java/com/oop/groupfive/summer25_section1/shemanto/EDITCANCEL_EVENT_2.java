@@ -3,6 +3,8 @@ package com.oop.groupfive.summer25_section1.shemanto;
 import javafx.event.ActionEvent;
 import javafx.scene.control.TableColumn;
 
+import javax.swing.text.TableView;
+
 public class EDITCANCEL_EVENT_2 {
     @javafx.fxml.FXML
     private TableColumn dateCol;
@@ -12,6 +14,8 @@ public class EDITCANCEL_EVENT_2 {
     private TableColumn venueCol;
     @javafx.fxml.FXML
     private TableColumn titleCol;
+    @javafx.fxml.FXML
+    private TableView listofeventsTableview;
 
     @javafx.fxml.FXML
     public void refreshlistOnAction(ActionEvent actionEvent) {
