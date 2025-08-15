@@ -8,7 +8,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.groupfive.summer25_section1.shemanto.View_Event_Proposals_3">
    <children>
       <Label layoutX="240.0" layoutY="14.0" prefHeight="30.0" prefWidth="195.0" text="View Event Proposals">
          <font>
@@ -24,10 +23,6 @@
       <Button layoutX="435.0" layoutY="370.0" mnemonicParsing="false" text="Reject" />
       <TableView layoutX="76.0" layoutY="131.0" prefHeight="104.0" prefWidth="515.0">
         <columns>
-          <TableColumn fx:id="proposaltitleCol" prefWidth="189.60004425048828" text="Title" />
-          <TableColumn fx:id="proposalsubmitedbyCol" prefWidth="104.7999267578125" text="Submited By" />
-            <TableColumn fx:id="proposaldateCol" prefWidth="92.800048828125" text="Date" />
-            <TableColumn fx:id="proposalstatusCol" prefWidth="136.00003051757812" text="Status" />
         </columns>
       </TableView>
       <TextArea layoutX="166.0" layoutY="247.0" prefHeight="114.0" prefWidth="423.0" />
