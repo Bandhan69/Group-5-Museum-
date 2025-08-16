@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.groupfive.summer25_section1.Bandhan.Admin.AdminDashboardController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <left>
+      <VBox prefHeight="423.0" prefWidth="208.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#createReceptionistOA" prefHeight="26.0" prefWidth="213.0" text="Create Receptionist Account" />
+            <Button mnemonicParsing="false" onAction="#verifyVositorOA" prefHeight="26.0" prefWidth="210.0" text="Verify Visitor Account" />
+            <Button mnemonicParsing="false" onAction="#controlUserOA" prefHeight="26.0" prefWidth="214.0" text="Control User Account " />
+            <Button mnemonicParsing="false" onAction="#signoutOA" prefHeight="26.0" prefWidth="212.0" text="Signout" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="220.0" layoutY="42.0" text="Dashboard">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="infoTA" layoutX="7.0" layoutY="105.0" prefHeight="281.0" prefWidth="577.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

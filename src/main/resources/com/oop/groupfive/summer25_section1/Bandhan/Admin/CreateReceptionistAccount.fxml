@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.groupfive.summer25_section1.Bandhan.Admin.CreateReceptionistAccountController">
+   <children>
+      <Label layoutX="295.0" layoutY="39.0" text="Receptonist Account">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="114.0" text="Name " />
+      <Label layoutX="79.0" layoutY="155.0" text="Email" />
+      <Label layoutX="79.0" layoutY="198.0" text="Phone No" />
+      <Label layoutX="79.0" layoutY="240.0" text="Gender" />
+      <Label layoutX="79.0" layoutY="285.0" text="Address" />
+      <Label layoutX="464.0" layoutY="115.0" text="Date of Birth" />
+      <Label layoutX="484.0" layoutY="155.0" text="Type" />
+      <Label layoutX="484.0" layoutY="198.0" text="Timing" />
+      <Label layoutX="478.0" layoutY="249.0" text="Password" />
+      <Button layoutX="444.0" layoutY="302.0" mnemonicParsing="false" onAction="#createReceptonistOA" text="Create Receptonist Account" />
+      <TextField fx:id="nameTF" layoutX="169.0" layoutY="110.0" />
+      <TextField fx:id="emailTF" layoutX="169.0" layoutY="151.0" />
+      <TextField fx:id="phoneTF" layoutX="169.0" layoutY="194.0" />
+      <RadioButton fx:id="maleRB" layoutX="158.0" layoutY="240.0" mnemonicParsing="false" text="Male" />
+      <RadioButton fx:id="femaleRB" layoutX="283.0" layoutY="240.0" mnemonicParsing="false" text="Female" />
+      <TextField fx:id="timingTF" layoutX="544.0" layoutY="194.0" prefHeight="26.0" prefWidth="186.0" />
+      <PasswordField fx:id="passwordPF" layoutX="544.0" layoutY="245.0" prefHeight="26.0" prefWidth="186.0" />
+      <ComboBox fx:id="typeCB" layoutX="544.0" layoutY="151.0" prefHeight="26.0" prefWidth="186.0" />
+      <DatePicker fx:id="dobDP" layoutX="544.0" layoutY="118.0" />
+      <TextArea fx:id="addressTA" layoutX="133.0" layoutY="266.0" prefHeight="73.0" prefWidth="298.0" />
+      <TextArea fx:id="outputTA" layoutX="83.0" layoutY="342.0" prefHeight="97.0" prefWidth="449.0" />
+   </children>
+</AnchorPane>

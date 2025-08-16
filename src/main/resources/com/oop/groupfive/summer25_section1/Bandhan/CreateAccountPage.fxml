@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.groupfive.summer25_section1.Bandhan.CreateAccountPageController">
+   <children>
+      <Label layoutX="344.0" layoutY="40.0" text="Create Account ">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="98.0" text="Full Name " />
+      <Label layoutX="80.0" layoutY="145.0" text="Email" />
+      <Label layoutX="80.0" layoutY="190.0" text="Phone No" />
+      <Label layoutX="80.0" layoutY="241.0" text="Address" />
+      <Label layoutX="427.0" layoutY="149.0" text="Date of Birth" />
+      <Label layoutX="425.0" layoutY="199.0" text="Password" />
+      <TextField fx:id="nameTextField" layoutX="175.0" layoutY="94.0" prefHeight="26.0" prefWidth="216.0" />
+      <TextField fx:id="emailTextField" layoutX="175.0" layoutY="141.0" prefHeight="26.0" prefWidth="216.0" />
+      <TextField fx:id="phoneNoTextField" layoutX="175.0" layoutY="186.0" prefHeight="26.0" prefWidth="216.0" />
+      <TextArea fx:id="addressTextField" layoutX="175.0" layoutY="241.0" prefHeight="81.0" prefWidth="223.0" />
+      <DatePicker fx:id="dobDP" layoutX="522.0" layoutY="150.0" />
+      <PasswordField fx:id="passwordTaxtField" layoutX="522.0" layoutY="195.0" prefHeight="26.0" prefWidth="186.0" />
+      <Button layoutX="483.0" layoutY="296.0" mnemonicParsing="false" onAction="#createAccountOnAction" text="Create Account" />
+      <TextArea fx:id="outputTaxtField" editable="false" layoutX="174.0" layoutY="335.0" prefHeight="90.0" prefWidth="510.0" />
+      <Label layoutX="425.0" layoutY="243.0" text="Em. Contract" />
+      <TextField fx:id="emergencyContactTaxtField" layoutX="522.0" layoutY="239.0" prefHeight="26.0" prefWidth="186.0" />
+      <Label layoutX="427.0" layoutY="99.0" text="Gender " />
+      <RadioButton fx:id="maleRB" layoutX="508.0" layoutY="99.0" mnemonicParsing="false" text="Male " />
+      <RadioButton fx:id="femaleRB" layoutX="593.0" layoutY="98.0" mnemonicParsing="false" text="Female " />
+      <RadioButton fx:id="othersRB" layoutX="694.0" layoutY="98.0" mnemonicParsing="false" text="Other s" />
+   </children>
+</AnchorPane>

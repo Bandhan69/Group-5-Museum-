@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.groupfive.summer25_section1.Bandhan.Admin.VerifyVisitorController">
+   <children>
+      <Label layoutX="336.0" layoutY="20.0" text="Verify Visitor">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView layoutX="7.0" layoutY="243.0" prefHeight="200.0" prefWidth="784.0">
+        <columns>
+          <TableColumn fx:id="idTC" prefWidth="75.0" text="Visitor ID" />
+          <TableColumn fx:id="nameTC" prefWidth="116.0" text="Visitor Name" />
+            <TableColumn fx:id="emailTC" prefWidth="158.0" text="Email" />
+            <TableColumn fx:id="phoneTC" prefWidth="106.0" text="Phone No" />
+            <TableColumn fx:id="genderTC" prefWidth="144.0" text="Gender" />
+            <TableColumn fx:id="statusTC" prefWidth="184.0" text="Status" />
+        </columns>
+      </TableView>
+      <Label layoutX="33.0" layoutY="72.0" text="Visitor ID" />
+      <Label layoutX="33.0" layoutY="110.0" text="Name" />
+      <Label layoutX="33.0" layoutY="154.0" text="Email" />
+      <Label layoutX="23.0" layoutY="196.0" text="Phone No" />
+      <Label layoutX="121.0" layoutY="110.0" text="Label" />
+      <Label layoutX="121.0" layoutY="154.0" text="Label" />
+      <Label layoutX="121.0" layoutY="196.0" text="Label" />
+      <Label layoutX="400.0" layoutY="89.0" text="Gender" />
+      <Label layoutX="400.0" layoutY="138.0" text="DoB" />
+      <Label layoutX="508.0" layoutY="89.0" text="Label" />
+      <Label layoutX="508.0" layoutY="138.0" text="Label" />
+      <ComboBox fx:id="idCB" layoutX="106.0" layoutY="68.0" onAction="#idCBOA" prefWidth="150.0" />
+      <Button layoutX="388.0" layoutY="184.0" mnemonicParsing="false" text="Accept" />
+      <Button layoutX="496.0" layoutY="184.0" mnemonicParsing="false" text="Reject" />
+   </children>
+</AnchorPane>

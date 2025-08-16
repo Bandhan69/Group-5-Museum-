@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.groupfive.summer25_section1.Bandhan.LoginPageController">
    <children>
       <Label layoutX="372.0" layoutY="64.0" text="Login">
@@ -19,7 +18,7 @@
       <Label layoutX="196.0" layoutY="209.0" text="Password" />
       <TextField fx:id="userIDTextField" layoutX="311.0" layoutY="146.0" />
       <PasswordField fx:id="passwordPasswordField" layoutX="311.0" layoutY="204.0" />
-      <Button layoutX="373.0" layoutY="276.0" mnemonicParsing="false" onAction="#loginOnAction" text="Login" />
+      <Button layoutX="367.0" layoutY="328.0" mnemonicParsing="false" onAction="#loginOnAction" text="Login" />
       <Button layoutX="609.0" layoutY="382.0" mnemonicParsing="false" onAction="#createAccountOnAction" text="Create Account " />
    </children>
 </AnchorPane>
